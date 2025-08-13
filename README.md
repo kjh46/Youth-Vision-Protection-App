@@ -36,7 +36,8 @@ app/
 
 ## 📷 Screenshots
 - **Start Screen** – Logo and navigation buttons
-<img width="351" height="568" alt="image" src="https://github.com/user-attachments/assets/c1d5a5c9-fb3c-47f1-a2a2-6268e863b74c" />  
+<img width="351" height="568" alt="image" src="https://github.com/user-attachments/assets/c1d5a5c9-fb3c-47f1-a2a2-6268e863b74c" />
+
 - **Main Screen** – Live camera feed with real-time distance display 
 <img width="312" height="565" alt="image" src="https://github.com/user-attachments/assets/65be2ee6-71d2-45d5-b27c-b0dc4be388fb" />  
 
