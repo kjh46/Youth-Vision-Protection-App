@@ -76,3 +76,7 @@ val distanceCm = (KNOWN_DISTANCE_BETWEEN_EYES * FOCAL_LENGTH_PIXEL) / perceivedD
 You can download the project files from Google Drive here:  
 [**Download from Google Drive**](https://drive.google.com/file/d/1osUhmLJLFiP3pb6FG1mAGa0YYAYKqDc2/view?usp=sharing)
 
+## 📜 License
+
+This project is licensed under the **MIT License**. Feel free to use, modify, and distribute it.
+
