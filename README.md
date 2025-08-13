@@ -21,7 +21,7 @@ This project aims to **prevent vision deterioration in youth** and promote **hea
 - ⚙️ **Background Execution** – Camera runs in the background to ensure constant monitoring
 
 ## 📂 Project Structure
-app/
+app/  
 ├── MainActivity.java # Brightness control example  
 ├── CameraFragment.kt # Camera + FaceMesh + Distance calculation  
 ├── fragment_facemesh.xml # FaceMesh fragment UI  
@@ -43,12 +43,12 @@ app/
 
 ## 💡 Example Code Snippet
 - **Distance Warning**
-  if (distance < 30) { 
+  -if (distance < 30) { 
     Toast.makeText(this, "Distance is less than 30cm!", Toast.LENGTH_SHORT).show()
 }
 
 - **Distance Calculation**
-  val perceivedDistanceInPixels = calculateDistance(
+  -val perceivedDistanceInPixels = calculateDistance(
     leftEyeXPixel, leftEyeYPixel, rightEyeXPixel, rightEyeYPixel
 )
 val distanceCm = (KNOWN_DISTANCE_BETWEEN_EYES * FOCAL_LENGTH_PIXEL) / perceivedDistanceInPixels
