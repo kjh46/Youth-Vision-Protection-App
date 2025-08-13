@@ -53,3 +53,18 @@ app/
 )
 val distanceCm = (KNOWN_DISTANCE_BETWEEN_EYES * FOCAL_LENGTH_PIXEL) / perceivedDistanceInPixels
 
+## ⚠️ Limitations & Future Improvements
+
+1. **Screen Blocking Permission Issue**  
+   - Due to Android permission restrictions, the screen blocking or blurring feature may not function correctly on some devices.
+   - Additional permission handling or alternative overlay methods need to be implemented.
+
+2. **Distance Calculation Accuracy**  
+   - The current calculation uses the formula:  
+     ```
+     distance = (Known Real Size * Focal Length (pixels)) / Perceived Size (pixels)
+     ```
+   - Eye distance and focal length vary between individuals and devices.  
+     Currently, fixed values are used instead of dynamically calibrated values, which may reduce accuracy.
+   - A future improvement would be to implement **dynamic calibration** for each device and user.
+
